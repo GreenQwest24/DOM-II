@@ -174,12 +174,21 @@ img {
     margin: 0 5%;
   }
 }
+
+.border {
+  border: 2px solid black;
+}
+
 .main-navigation {
   width: 100%;
   height: 90px;
   background: #FFFFFF;
   border-bottom: 2px dashed #C0C0C0;
   position: fixed;
+}
+
+.main-navigation .nav-container .nav .red {
+  color: red;
 }
 .main-navigation .nav-container {
   height: 100%;
@@ -219,6 +228,10 @@ img {
   width: 100%;
   border-top: 2px dashed #C0C0C0;
   background: #FFEBCD;
+}
+
+.hide {
+  visibility: hidden;
 }
 .footer p {
   text-align: center;
