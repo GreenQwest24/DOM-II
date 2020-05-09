@@ -57,4 +57,17 @@ window.addEventListener('keydown', prizeE, false);
 
 window.addEventListener("load", () => {
     alert("CLICK OK and then press any key to get a prize!");
+
 });
+
+let btn = document.querySelector('btn');
+btn.addEventListener("click", () => alert("Button clicked"));
+
+let h1 = document.querySelector('.intro p');
+h1.addEventListener("click", (e) => {
+    e.stopPropagation();
+    h1.style.border = "2px solid black";
+
+})
+
+header.addEventListener("click", () => header.style.border = "5px solid black");
